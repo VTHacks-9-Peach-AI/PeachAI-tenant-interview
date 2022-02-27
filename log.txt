@@ -1,0 +1,90 @@
+####################################################################################################
+human: 
+ai: Hi, my name is Peach, I'm calling in regard to your rental application for 975 Academy Way for Landlord Samir. I'd like to ask you some questions. Is it a good time to talk?
+[
+  {
+    "type": "Intent",
+    "skill": "4720f00f66ff0a6aa6b6fcc6f96c426b:v2",
+    "weight": 0.99587,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: uh yeah sure
+ai: Alright, so, let's begin.
+ai: Are you expecting an unfurnished or furnished aparment ? 
+[
+  {
+    "type": "Intent",
+    "skill": "common_phrases",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 2,
+      "end": 2
+    },
+    "intent": "repeat",
+    "state": "positive",
+    "sentenceType": "request"
+  }
+]
+human: can you repeat that please
+ai: I was saying
+ai: Are you expecting an unfurnished or furnished aparment ? 
+[
+  {
+    "type": "Intent",
+    "skill": "4720f00f66ff0a6aa6b6fcc6f96c426b:v2",
+    "weight": 0.95547,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "furnished",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: oh furnished please
+ai: Wonderful! Glad you are okay with furnished apartment. Now, could you tell me whether you smoke or not ?
+[
+  {
+    "type": "Intent",
+    "skill": "4720f00f66ff0a6aa6b6fcc6f96c426b:v2",
+    "weight": 0.97423,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "nosmoke",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: i don't smoke
+ai: Perfect! Are you willing to get renter's insurance ?
+[
+  {
+    "type": "Intent",
+    "skill": "4720f00f66ff0a6aa6b6fcc6f96c426b:v2",
+    "weight": 0.86931,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "no",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: uh no
+ai: Thank you so much for letting me know! It saddens me to say that it doesn't match out basic qualification requirements. That being said, we will inform your replies to landlord and contact you once a matching apartment appears. Thank you for your time and have a wonderful day! Bye!

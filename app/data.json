@@ -1,0 +1,256 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh","pretty good", "really good"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "yeah well",
+        "wrong",
+        "incorrect",
+        "not really",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "no way",
+        "no-no",
+        "it isn't",
+        "isn't",
+        "I'm a bit busy",
+        "busy time right now",
+        "in the middle of something",
+        "signal is pretty bad"
+      ]
+    },
+
+    "high_school": {
+      "includes": [
+        "finished high school",
+        "graduated my high school",
+        "graduated from high school",
+        "high school",
+        "don't have"
+      ]
+    },
+    "furnished": {
+      "includes": [
+        "furnished",
+        "expecting filled",
+        "I prefer furnished apartment",
+        "full"
+      ]
+    },
+
+    "unfurnished": {
+      "includes": [
+        "unfurnished",
+        "empty",
+        "no furniture",
+        "I am okay with unfurnished apartment"
+      ]
+    },
+
+    
+    "smoke": {
+      "includes": [
+        "I smoke",
+        "Yes I do",
+        "Yes",
+        "I sometimes smoke",
+        "Sometimes"
+      ]
+    },
+
+    "nosmoke": {
+      "includes": [
+        "Nope",
+        "no i dont",
+        "I don't smoke",
+        "I do not smoke",
+        "not smoke",
+        "do not smoke", 
+        "I hate it",
+        "I've never smoked",
+        "I have never smoked"
+      ]
+    },
+
+    "lowtolerance": {
+      "includes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Zero",
+        "I cannot stand",
+        "I cannot deal"
+      ]
+    },
+
+    "hightolerance": {
+      "includes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ]
+    },
+
+    "okay": 
+    {
+      "includes":[
+        "comfortable",
+        "are okay",
+        "am okay",
+        "OK",
+        "okay",
+        "wouldn't mind",
+        "no big deal",
+        "not a deal breaker",
+        "not a deal-breaker",
+        "wouldn't be a deal breaker",
+        "wouldn't be a big deal",
+        "isn't a big deal",
+        "fine",
+        "alright",
+        "don't really mind",
+        "I'm fine with",
+        "totally fine",
+        "love",
+        "fine with",
+        "I'm OK with that",
+        "surely not a deal breaker for me"
+      ]
+    },
+
+    "not_okay": 
+    {
+      "includes":[
+        "hate",
+        "not comfortable",
+        "would not feel",
+        "wouldn't be comfortable",
+        "wouldn't feel comfortable",
+        "would really mind",
+        "not feel",
+        "wouldn't make me feel too comfortable",
+        "dislike",
+        "deal breaker",
+        "deal-breaker",
+        "a big deal",
+        "not fine",
+        "not alright",
+        "wouldn't be alright",
+        "wouldn't be fine",
+        "not too comfortable",
+        "doesn't make me feel good",
+        "wouldn't make me feel too good",
+        "I'd really mind",
+        "I'd mind"
+      ]
+    },
+
+    "yes_goals": 
+    {
+      "includes":[
+        "successful",
+        "met all my sales goals",
+        "meeting my goals",
+        "met my goals",
+        "overachieved",
+        "met my sales goals",
+        "achieved",
+        "overachieve",
+        "every time", 
+        "every single time", 
+        "always", 
+        "all the time", 
+        "each month", 
+        "every month", 
+        "every single",
+        "achieved my goals",
+        "every single month",
+        "met my sales goals every single month for the past"
+      ]
+    },
+
+    "no_goals": 
+    {
+      "includes":[
+        "wasn't very successful",
+        "not every time",
+        "not every month",
+        "not always", "not each time", "not all the time"
+      ]
+    },
+
+
+    "renterInsurance":
+    {
+      "includes": [
+        "What is renter's insurance",
+        "What is renters insurance",
+        "I don't know what renter's insurance is",
+        "What is renter's insurance again?"
+      ]
+    }
+   
+   }
+}
