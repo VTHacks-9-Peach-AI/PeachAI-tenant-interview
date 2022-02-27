@@ -1,5 +1,5 @@
 {
-  "name": "appointment",
+  "name": "tenantinterview",
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js"
